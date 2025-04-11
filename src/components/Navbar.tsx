@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import logo from '../assets/corgi.svg'
+import logo from '../assets/corgi.jpg'
 const Navbar = () => {
 
     const linkActivation = (isActive: boolean) => {

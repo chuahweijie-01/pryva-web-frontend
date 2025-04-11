@@ -1,4 +1,4 @@
-import Contact from './Contact'
+import Contact from './form/Contact'
 
 const About = () => {
 

@@ -29,7 +29,6 @@ const Contact = () => {
                             />
                         </div>
                     </div>
-
                     <div className="sm:col-span-3">
                         <label htmlFor="last-name" className="block text-sm/6 font-medium text-gray-900">
                             Last name
@@ -43,7 +42,6 @@ const Contact = () => {
                             />
                         </div>
                     </div>
-
                     <div className="col-span-full">
                         <label htmlFor="email" className="block text-sm/6 font-medium text-gray-900">
                             Email Address
@@ -57,7 +55,6 @@ const Contact = () => {
                             />
                         </div>
                     </div>
-
                     <div className="col-span-full">
                         <label htmlFor="message" className="block text-sm/6 font-medium text-gray-900">
                             Your message
@@ -73,7 +70,7 @@ const Contact = () => {
                 </div>
                 <div className='pb-20'></div>
                 <div>
-                    <button className="py-2 text-sm bg-black w-full rounded-[5px] border-none text-white cursor-pointer">Submit</button>
+                    <button className="py-2 text-sm bg-black w-full rounded-[5px] border-none text-white cursor-pointer hover:bg-gray-800">Submit</button>
                 </div>
             </form>
         </div>
