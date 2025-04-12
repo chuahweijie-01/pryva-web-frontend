@@ -1,0 +1,17 @@
+{
+    "description": "Excepteur efficient emerging, minim veniam anim cloying aute carefully curated gauche. Espresso exquisite perfect nostrud nisi intricate. Punctual adipisicing Borzoi, essential lovely tempor eiusmod irure. Exclusive izakaya charming Quezon City impeccable aute quality of life soft power pariatur occaecat discerning. Qui wardrobe aliquip, et Amadeus rock opera. \n\nExquisite sophisticated iconic cutting-edge laborum deserunt esse bureaux cupidatat id minim. Sharp classic the best commodo nostrud delightful. Conversation aute wifey id. Qui sunt remarkable deserunt intricate airport excepteur classic esse riot girl.",
+    "featured": [
+        {
+            "id": 1,
+            "name": "Fairy Tales",
+            "img": "/product_1.jpg",
+            "alt": "fairy_tales"
+        },
+        {
+            "id": 2,
+            "name": "Fairy Tale Premium",
+            "img": "/product_2.jpg",
+            "alt": "fairy_tales_premium"
+        }
+    ]
+}

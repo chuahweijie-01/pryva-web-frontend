@@ -1,26 +1,9 @@
 import virgo from '../../assets/virgo.jpg'
 
-const Result = () => {
+const Result = (props: any) => {
 
-    const result = {
-        horoscope: 'VIRGO',
-        date: '(Aug 24-Sep 23)',
-        general:
-            `Daily Horoscope Prediction says, Forge New Paths with Clarity and Confidence.
-
-            Focus on balance today, Virgo. Embrace clarity, make thoughtful decisions, and prioritize communication to strengthen relationships.
-            
-            Today’s Virgo horoscope encourages focusing on personal growth and practical goals. Embrace opportunities for improvement while staying organized. Balance work and relationships by setting healthy boundaries. Trust your intuition to make thoughtful decisions. Take time for self-care and relaxation to recharge your energy. Stay confident and motivated throughout the day.
-            `,
-        love:
-            `Today brings fresh energy to your relationships. 
-            
-            Open communication can strengthen bonds and create a sense of closeness. If single, trust your instincts when meeting someone new, as they may hold surprising compatibility. Couples may find joy in shared activities, deepening their connection. 
-            
-            Focus on honesty and balance to maintain harmony. Remember, love thrives when nurtured with care and patience. Embrace the opportunities around you, and let your heart guide your actions.
-        `
-    }
-
+    const result = props.result;
+   
     return (
         <div className='border-1 border-gray-100 rounded-md py-8 px-10'>
             <div className="flex gap-30 py-15">

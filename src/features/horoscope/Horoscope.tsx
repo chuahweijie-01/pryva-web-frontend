@@ -1,7 +1,25 @@
+import { useState } from "react";
 import PersonalInfo from "./form/PersonalInfo"
 import Result from "./Result";
+import data from '../../data/horoscope.result.json'
 
 const Horoscope = () => {
+
+  const [formData, setFormData] = useState({
+    name: "", year: "", month: "", day: ""
+  })
+
+  const [result, setResult] = useState({});
+
+  const handleOnChange = async (e: any) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }))
+  }
+
+  const handleFormSubmit = async (e: any) => {
+    e.preventDefault();
+    setResult(data);
+  }
 
   const description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
 
@@ -12,11 +30,17 @@ const Horoscope = () => {
         <p className='text-lg text-gray-500 pb-3'>{description}</p>
       </div>
       <div className="pb-10">
-        <PersonalInfo />
+        <PersonalInfo
+          formData={formData}
+          handleOnChange={handleOnChange}
+          handleFormSubmit={handleFormSubmit} />
       </div>
-      <div>
-        <Result />
-      </div>
+      {
+        Object.keys(result).length > 0 &&
+        <div>
+          <Result result={result} />
+        </div>
+      }
     </div>
   )
 }
