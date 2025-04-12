@@ -4,13 +4,13 @@
         {
             "id": 1,
             "name": "Fairy Tales",
-            "img": "/product_1.jpg",
+            "img": "/home/products/product-1.jpg",
             "alt": "fairy_tales"
         },
         {
             "id": 2,
             "name": "Fairy Tale Premium",
-            "img": "/product_2.jpg",
+            "img": "/home/products/product-2.jpg",
             "alt": "fairy_tales_premium"
         }
     ]

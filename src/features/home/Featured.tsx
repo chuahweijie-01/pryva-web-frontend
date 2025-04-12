@@ -1,7 +1,7 @@
 const Featured = (props: any) => {
 
-    const features = props.features.featured;
-    const renderFeaturedItems = features.map((item: any) => (
+    const featured = props.featured.featured;
+    const renderFeaturedItems = featured.map((item: any) => (
         <div key={item.id}>
             <img src={item.img} alt={item.alt} className="h-70 w-70" />
         </div>
@@ -16,7 +16,7 @@ const Featured = (props: any) => {
                 {renderFeaturedItems}
             </div>
             <div>
-                <p className="text-lg whitespace-pre-line">{props.features.description}</p>
+                <p className="text-lg whitespace-pre-line">{props.featured.description}</p>
             </div>
         </div>
 

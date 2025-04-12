@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PersonalInfo from "./form/PersonalInfo"
 import Result from "./Result";
-import data from '../../data/horoscope.result.json'
+import horoscopeData from '../../data/horoscope.result.json'
 
 const Horoscope = () => {
 
@@ -18,7 +18,7 @@ const Horoscope = () => {
 
   const handleFormSubmit = async (e: any) => {
     e.preventDefault();
-    setResult(data);
+    setResult(horoscopeData);
   }
 
   const description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
