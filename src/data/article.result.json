@@ -1,0 +1,25 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "title": "The Invisible Architecture of Everyday Life",
+            "author": "Dr. Elise Tanaka",
+            "img": "/home/articles/image-1.jpg",
+            "alt": "fairy_tales"
+        },
+        {
+            "id": 2,
+            "title": "Can AI Truly Understand Us?",
+            "author": "Rafael Dominguez",
+            "img": "/home/articles/image-2.jpg",
+            "alt": "fairy_tales"
+        },
+        {
+            "id": 3,
+            "title": "The Myth of the Lone Genius",
+            "author": "Priya Nwosu",
+            "img": "/home/articles/image-3.jpg",
+            "alt": "fairy_tales"
+        }
+    ]
+}

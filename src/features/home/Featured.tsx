@@ -9,7 +9,7 @@ const Featured = (props: any) => {
     
     return (
         <div>
-            <div className='flex justify-center pb-15'>
+            <div className='flex justify-center pb-10'>
                 <h1 className='text-3xl font-bold'>Featured Products</h1>
             </div>
             <div className="flex pb-10 gap-20 justify-center">
@@ -19,7 +19,6 @@ const Featured = (props: any) => {
                 <p className="text-lg whitespace-pre-line">{props.featured.description}</p>
             </div>
         </div>
-
     )
 }
 

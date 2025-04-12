@@ -1,6 +1,8 @@
 import home from '/home-1.jpg';
 import Featured from './Featured';
 import featured from '../../data/featured.result.json';
+import articles from '../../data/article.result.json';
+import Article from './Article';
 
 const Home = () => {
 
@@ -15,7 +17,12 @@ const Home = () => {
       <div className='flex justify-center pb-10'>
         <img src={home} alt="home" />
       </div>
-      <Featured featured={featured} />
+      <div className='pb-10'>
+        <Featured featured={featured} />
+      </div>
+      <div>
+        <Article articles={articles} />
+      </div>
     </div>
   )
 }
