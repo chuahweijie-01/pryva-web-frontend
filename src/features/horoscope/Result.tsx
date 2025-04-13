@@ -5,7 +5,7 @@ const Result = (props: any) => {
     const result = props.result;
    
     return (
-        <div className='border-1 border-gray-100 rounded-md py-8 px-10'>
+        <div className='border-1 border-gray-200 rounded-md py-8 px-10'>
             <div className="flex gap-30 py-15">
                 <div className='flex-1 flex items-center justify-center'>
                     <img src={virgo} alt='horoscope' />

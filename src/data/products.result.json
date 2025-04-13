@@ -3,8 +3,9 @@
         {
             "id": 1,
             "name": "The Invisible Architecture of Everyday Life",
-            "description": "Dr. Elise Tanaka",
-            "img": "/home/articles/image-1.jpg",
+            "subtitle": "Dr. Elise Tanaka",
+            "description": "description",
+            "img": "/products/image-1.jpg",
             "alt": "fairy_tales",
             "price": "RM188.88",
             "horoscope_id": 1
@@ -12,8 +13,9 @@
         {
             "id": 2,
             "name": "Can AI Truly Understand Us?",
-            "author": "Rafael Dominguez",
-            "img": "/home/articles/image-2.jpg",
+            "subtitle": "Rafael Dominguez",
+            "description": "description",
+            "img": "/products/image-2.jpg",
             "alt": "fairy_tales",
             "price": "RM89.00",
             "horoscope_id": 1
@@ -21,35 +23,39 @@
         {
             "id": 3,
             "name": "The Myth of the Lone Genius",
-            "author": "Priya Nwosu",
-            "img": "/home/articles/image-3.jpg",
+            "subtitle": "Priya Nwosu",
+            "description": "description",
+            "img": "/products/image-3.jpg",
             "alt": "fairy_tales",
             "price": "RM100.00",
             "horoscope_id": 2
         },
         {
-            "id": 1,
+            "id": 4,
             "name": "The Invisible Architecture of Everyday Life",
-            "description": "Dr. Elise Tanaka",
-            "img": "/home/articles/image-1.jpg",
+            "subtitle": "Dr. Elise Tanaka",
+            "description": "description",
+            "img": "/products/image-4.jpg",
             "alt": "fairy_tales",
             "price": "RM188.88",
             "horoscope_id": 1
         },
         {
-            "id": 2,
+            "id": 5,
             "name": "Can AI Truly Understand Us?",
-            "author": "Rafael Dominguez",
-            "img": "/home/articles/image-2.jpg",
+            "subtitle": "Rafael Dominguez",
+            "description": "description",
+            "img": "/products/image-5.jpg",
             "alt": "fairy_tales",
             "price": "RM89.00",
             "horoscope_id": 2
         },
         {
-            "id": 3,
+            "id": 6,
             "name": "The Myth of the Lone Genius",
-            "author": "Priya Nwosu",
-            "img": "/home/articles/image-3.jpg",
+            "subtitle": "Priya Nwosu",
+            "description": "description",
+            "img": "/products/image-6.jpg",
             "alt": "fairy_tales",
             "price": "RM100.00",
             "horoscope_id": 2

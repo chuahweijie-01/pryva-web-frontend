@@ -1,4 +1,5 @@
 import Contact from './form/Contact'
+import corgi from '../../assets/about.jpg'
 
 const About = () => {
 
@@ -26,7 +27,7 @@ const About = () => {
           <Contact />
         </div>
         <div className='flex-1'>
-          {/* image */}
+          <img src={corgi} alt='corgi' />
         </div>
       </div>
     </div>

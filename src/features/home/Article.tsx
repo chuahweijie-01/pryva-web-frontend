@@ -5,7 +5,7 @@ const Article = (props: any) => {
         <div key={item.id} className="flex-1/3 flex-col">
             <div>
             <div className="pb-5">
-                <img src={item.img} alt={item.alt} />
+                <img src={item.img} alt={item.alt} className="w-100 h-60"/>
             </div>
             <div className="font-bold text-xl pb-2">{item.title}</div>
             <div className="text-gray-500">{item.author}</div>

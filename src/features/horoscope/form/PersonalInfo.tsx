@@ -1,7 +1,7 @@
 const PersonalInfo = (props: any) => {
 
     return (
-        <div className='border-1 border-gray-100 rounded-md py-8 px-10'>
+        <div className='border-1 border-gray-200 rounded-md py-8 px-10'>
             <form onSubmit={props.handleFormSubmit}>
                 <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div className="col-span-full">
