@@ -12,7 +12,7 @@ const Products = () => {
 
   const products = productsData.products;
   const renderProductsItems = products.map((item: any) => (
-    <div key={item.id} className='pb-15'>
+    <div key={item.id} className='pb-5 sm:pb-15'>
       <div>
         <div className="pb-5">
           <img src={item.img} alt={item.alt} className="w-100 h-60" />
@@ -27,8 +27,8 @@ const Products = () => {
   return (
     <div className='p-10'>
       <h1 className='text-4xl font-bold pt-3 pb-5'>Products</h1>
-      <div className='border-1 border-gray-200 rounded-md py-15 px-30 mb-8'>
-        <div className="flex gap-10">
+      <div className='border-1 border-gray-200 rounded-md py-15 px-10 sm:px-30 mb-8'>
+        <div className="flex flex-col sm:flex-row gap-10">
           <div>
             <img src={productmain} alt="product" />
           </div>
@@ -65,7 +65,7 @@ const Products = () => {
         <div className='pb-10'>
           <h1 className='text-3xl font-bold'>Related products</h1>
         </div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
           {renderProductsItems}
         </div>
       </div>

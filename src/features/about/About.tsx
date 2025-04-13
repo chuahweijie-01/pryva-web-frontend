@@ -18,17 +18,20 @@ const About = () => {
   return (
     <div className='p-10'>
       <h1 className='text-4xl font-bold pt-3 pb-5'>About</h1>
-      <div className="flex gap-30">
+      <div className='flex flex-col sm:flex-row gap-30 pb-15 '>
         <div className="flex-1">
-          <div className='pb-25'>
+          <div>
             <p className='text-lg text-gray-500 pb-3'>{about.subtitle}</p>
             <p className='text-lg whitespace-pre-line'>{about.content}</p>
           </div>
-          <Contact />
         </div>
         <div className='flex-1'>
           <img src={corgi} alt='corgi' />
         </div>
+      </div>
+      <div className='flex'>
+        <div className="flex-1"><Contact /></div>
+        <div className="flex-none md:flex-1"></div>
       </div>
     </div>
   )

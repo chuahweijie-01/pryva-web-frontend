@@ -1,7 +1,7 @@
 const Product = (props: any) => {
     const products = props.products;
     const renderProductsItems = products.map((item: any) => (
-        <div key={item.id} className="flex-1/3 flex-col">
+        <div key={item.id} className="flex-1 sm:flex-1/3 flex-col">
             <div>
                 <div className="pb-5">
                     <img src={item.img} alt={item.alt} className="w-100 h-60"/>
@@ -18,7 +18,7 @@ const Product = (props: any) => {
             <div className='pb-10'>
                 <h1 className='text-3xl font-bold'>Related products</h1>
             </div>
-            <div className="flex pb-10 gap-20 justify-center">
+            <div className="flex flex-col sm:flex-row pb-10 gap-20 justify-center">
                 {renderProductsItems}
             </div>
         </div>

@@ -6,7 +6,7 @@ const Result = (props: any) => {
    
     return (
         <div className='border-1 border-gray-200 rounded-md py-8 px-10'>
-            <div className="flex gap-30 py-15">
+            <div className="flex flex-col sm:flex-row gap-30 py-15">
                 <div className='flex-1 flex items-center justify-center'>
                     <img src={virgo} alt='horoscope' />
                 </div>
@@ -21,7 +21,7 @@ const Result = (props: any) => {
                 </div>
             </div>
             <div className='flex justify-end'>
-                <button className="py-2 text-sm bg-black w-50 rounded-[5px] border-none text-white cursor-pointer hover:bg-gray-800">Find out more</button>
+                <button className="py-2 text-sm bg-black w-full sm:w-50 rounded-[5px] border-none text-white cursor-pointer hover:bg-gray-800">Find out more</button>
             </div>
         </div>
     )
