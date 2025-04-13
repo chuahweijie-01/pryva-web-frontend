@@ -11,9 +11,9 @@ const Navbar = () => {
             <nav className="bg-white shadow-xs pl-4 pr-8 py-1">
                 <div className="flex justify-between items-center">
                     <div>
-                        <img src={logo} alt="pyrva" className=" min-w-25 w-25 min-h-25 h-25"></img>
+                        <img src={logo} alt="pyrva" className="w-10 sm:w-25 h-10 sm:h-25"></img>
                     </div>
-                    <div className="space-x-8 text-lg">
+                    <div className="space-x-2 sm:space-x-8 text-xs sm:text-lg">
                         <NavLink to="/home" className={({ isActive }) => linkActivation(isActive)}>Home</NavLink>
                         <NavLink to="/products" className={({ isActive }) => linkActivation(isActive)}>Products</NavLink>
                         <NavLink to="/horoscope" className={({ isActive }) => linkActivation(isActive)}>Horoscope</NavLink>
